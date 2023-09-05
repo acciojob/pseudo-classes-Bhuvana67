@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+*{
+	background-color:rgb(135, 206, 235);
+}
+.fst{
+	background-color:black;
+	color:white;
+}
+li{
+	background-color:gray;
+	width:50%;
+	padding:10px;
+}
+li:first-child,li:last-child{
+	background-color:white;
+	font-size:22px;
+}
+li:nth-child(3){
+	background-color:pink;
+}
+
